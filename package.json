@@ -1,0 +1,17 @@
+{
+  "name": "hu.ppeterka.misc.MyStuff",
+  "version": "0.0.1",
+  "description": "MyStuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "ppeterka <p.peter.laszlo@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.0"
+  },
+  "dependencies": {
+	"nedb": "^1.8.0"
+  }
+}
