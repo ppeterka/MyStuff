@@ -4,7 +4,7 @@ Ok, so this little thing here is a standard run-of-the-mill learning project: A 
 
 Really, nothing special.
 
-Also the code is *not of highest quality* - I'm still learning the proper ways around these tools.
+Also the code is *ahem...* "not of highest quality" - I'm still learning the proper ways around these tools.
 
 ##Features
 
@@ -15,6 +15,23 @@ Also the code is *not of highest quality* - I'm still learning the proper ways a
 
 ##Known limitations
 * NeDB is known not to hold more than 256MB of data
+
+## How to run it?
+As this is not a proper app yet (hope I'll be able to get it to that stage), running it is not user friendly...
+
+### Prerequisites
+* Node.js
+* If on Windows: MS Visual C++ 2015 Redistributable (otherwise electron won't do anything, just not run!)
+
+###Starting:
+**Before first run:**
+
+    npm install
+
+**Then to start it:**
+
+    npm start
+
 
 ## Technical Details
 
@@ -28,8 +45,9 @@ Also the code is *not of highest quality* - I'm still learning the proper ways a
 
 ##TODOs
 
-* [Use line ending semicolons](http://stackoverflow.com/questions/444080/do-you-recommend-using-semicolons-after-every-statement-in-javascript)
-* Proper I18N - currently the labels are in Hungarian...
+* [Always use line ending semicolons](http://stackoverflow.com/questions/444080/do-you-recommend-using-semicolons-after-every-statement-in-javascript)
+* Proper I18N - currently the labels are in Hungarian (sorry)...
 * Use NPM modules properly for SlickGrid and Bootstrap
 * DELETE function
 * Investigate why a "full" row needs to be inserted to NeDB - updating with new field does not work for some reason...
+* *Drink a coffee. No, really, I shouldn't: it is way too **latte** *
