@@ -8,11 +8,12 @@ Also the code is *not of highest quality* - I'm still learning the proper ways a
 
 ##Features
 
-* Couldn't be easier to use...
 * Well, it works :)
+* Couldn't be easier to use...
+* Regex in filter field
+* Search is *quick* - thanks to SlickGrid
 
 ##Known limitations
-
 * NeDB is known not to hold more than 256MB of data
 
 ## Technical Details
